@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami - PT Digital Nusantara</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-cubes logo-icon"></i>
+                <div>
+                    <span class="logo-text">DIGITAL</span>
+                    <span class="logo-subtext">NUSANTARA</span>
+                </div>
+            </a>
+            <nav>
+                <a href="index.html">Dashboard</a>
+                <a href="lowongan.html">Lowongan</a>
+                <a href="tentang.html">Tentang</a>
+                <a class="active" href="kontak.html">Kontak</a>
+            </nav>
+            <a href="kontak.html" class="btn-nav-cta">Hubungi Kami</a>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Kontak Kami</h1>
+            <p>Silakan hubungi tim kami untuk pertanyaan seputar lowongan pekerjaan, kolaborasi bisnis, atau konsultasi teknologi.</p>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="contact-grid">
+            
+            <!-- Left Column: Contact Information -->
+            <div class="card" style="padding: 35px;">
+                <h2 style="display: flex; align-items: center; gap: 12px; margin-bottom: 25px;">
+                    <i class="fa-solid fa-address-book" style="color: var(--accent-cyan);"></i> Informasi Kontak
+                </h2>
+                <p style="margin-bottom: 30px;">Tim HRD dan Sales kami siap membantu menjawab pertanyaan Anda pada jam operasional kerja.</p>
+                
+                <div class="contact-info-list">
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Alamat Kantor</h4>
+                            <p>Semarang, Jawa Tengah, Indonesia</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Email Rekrutmen & Sales</h4>
+                            <p>hrd@digitalnusantara.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Telepon / Fax</h4>
+                            <p>(024) 1234567</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-business-time"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Jam Kerja Operasional</h4>
+                            <p>Senin - Jumat, 08.00 - 17.00 WIB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Interactive Contact Form -->
+            <div class="card" style="padding: 35px;">
+                <h2 style="display: flex; align-items: center; gap: 12px; margin-bottom: 25px;">
+                    <i class="fa-solid fa-paper-plane" style="color: var(--accent-purple);"></i> Kirim Pesan Cepat
+                </h2>
+                <form action="#" onsubmit="event.preventDefault(); alert('Terima kasih! Pesan Anda telah terkirim.'); this.reset();">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" class="form-control" placeholder="Masukkan nama Anda..." required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Alamat Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Masukkan email Anda..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subjek Pesan</label>
+                        <input type="text" id="subject" class="form-control" placeholder="Tuliskan subjek pesan..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Pesan Anda</label>
+                        <textarea id="message" class="form-control" placeholder="Tuliskan pesan lengkap Anda di sini..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        <i class="fa-solid fa-paper-plane" style="margin-right: 8px;"></i> Kirim Pesan
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                DIGITAL <span>NUSANTARA</span>
+            </div>
+            <p>PT Digital Nusantara © 2026 | Solusi Digital Modern</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

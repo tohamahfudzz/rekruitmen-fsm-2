@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lowongan - PT Digital Nusantara</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-cubes logo-icon"></i>
+                <div>
+                    <span class="logo-text">DIGITAL</span>
+                    <span class="logo-subtext">NUSANTARA</span>
+                </div>
+            </a>
+            <nav>
+                <a href="index.html">Dashboard</a>
+                <a class="active" href="lowongan.html">Lowongan</a>
+                <a href="tentang.html">Tentang</a>
+                <a href="kontak.html">Kontak</a>
+            </nav>
+            <a href="kontak.html" class="btn-nav-cta">Hubungi Kami</a>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Karir & Peluang Kerja</h1>
+            <p>Salurkan bakat dan dedikasimu untuk menciptakan inovasi digital bersama tim hebat kami.</p>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="section-title-wrapper">
+            <span class="section-subtitle">Daftar Lowongan</span>
+            <h2 class="section-title">Pilih Karir Digital Anda</h2>
+        </div>
+
+        <div class="grid" style="margin-bottom: 60px;">
+            <!-- Frontend Dev -->
+            <div class="job-card">
+                <div class="job-card-header">
+                    <span class="job-badge cyan">Full-Time</span>
+                    <i class="fa-solid fa-code job-icon"></i>
+                </div>
+                <div class="job-card-body">
+                    <h3>Frontend Developer</h3>
+                    <div class="job-card-meta">
+                        <span><i class="fa-solid fa-location-dot"></i> Semarang / WFH</span>
+                        <span><i class="fa-solid fa-clock"></i> 40 jam / minggu</span>
+                    </div>
+                    <p>Mendesain, mengimplementasikan, dan memelihara tampilan antarmuka website modern yang responsif dan user-friendly.</p>
+                    <div class="job-skills">
+                        <span class="skill-tag">HTML5 / CSS3</span>
+                        <span class="skill-tag">JavaScript ES6</span>
+                        <span class="skill-tag">Responsive UI</span>
+                        <span class="skill-tag">Figma to Code</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <div class="job-salary">IDR 6M - 10M<span>/bulan</span></div>
+                    <a href="#chat-bot-section" class="btn-apply" onclick="pilihPekerjaan('Frontend Developer')">Lamar <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Backend Dev -->
+            <div class="job-card">
+                <div class="job-card-header">
+                    <span class="job-badge cyan">Full-Time</span>
+                    <i class="fa-solid fa-server job-icon"></i>
+                </div>
+                <div class="job-card-body">
+                    <h3>Backend Developer</h3>
+                    <div class="job-card-meta">
+                        <span><i class="fa-solid fa-location-dot"></i> Semarang / Remote</span>
+                        <span><i class="fa-solid fa-clock"></i> 40 jam / minggu</span>
+                    </div>
+                    <p>Mengelola performa sistem server, merancang API yang aman dan scalable, serta menangani integrasi database.</p>
+                    <div class="job-skills">
+                        <span class="skill-tag">Python Flask</span>
+                        <span class="skill-tag">PHP Laravel</span>
+                        <span class="skill-tag">RESTful API</span>
+                        <span class="skill-tag">MySQL / PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <div class="job-salary">IDR 7M - 12M<span>/bulan</span></div>
+                    <a href="#chat-bot-section" class="btn-apply" onclick="pilihPekerjaan('Backend Developer')">Lamar <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- UI/UX Designer -->
+            <div class="job-card">
+                <div class="job-card-header">
+                    <span class="job-badge purple">Full-Time</span>
+                    <i class="fa-solid fa-bezier-curve job-icon"></i>
+                </div>
+                <div class="job-card-body">
+                    <h3>UI/UX Designer</h3>
+                    <div class="job-card-meta">
+                        <span><i class="fa-solid fa-location-dot"></i> WFH / Remote</span>
+                        <span><i class="fa-solid fa-clock"></i> Fleksibel</span>
+                    </div>
+                    <p>Riset perilaku pengguna, membuat kawat rangkai (wireframe), prototyping, dan mendesain antarmuka visual aplikasi.</p>
+                    <div class="job-skills">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe XD</span>
+                        <span class="skill-tag">Wireframing</span>
+                        <span class="skill-tag">Design System</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <div class="job-salary">IDR 5M - 9M<span>/bulan</span></div>
+                    <a href="#chat-bot-section" class="btn-apply" onclick="pilihPekerjaan('UI/UX Designer')">Lamar <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- IT Support -->
+            <div class="job-card">
+                <div class="job-card-header">
+                    <span class="job-badge pink">Kontrak</span>
+                    <i class="fa-solid fa-headset job-icon"></i>
+                </div>
+                <div class="job-card-body">
+                    <h3>IT Support</h3>
+                    <div class="job-card-meta">
+                        <span><i class="fa-solid fa-location-dot"></i> Semarang Office</span>
+                        <span><i class="fa-solid fa-clock"></i> On-Site</span>
+                    </div>
+                    <p>Mendukung kebutuhan hardware/software karyawan, memelihara jaringan lokal, dan menangani troubleshooting teknis.</p>
+                    <div class="job-skills">
+                        <span class="skill-tag">Networking</span>
+                        <span class="skill-tag">Hardware Support</span>
+                        <span class="skill-tag">Windows/Linux</span>
+                        <span class="skill-tag">Problem Solving</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <div class="job-salary">IDR 4M - 6M<span>/bulan</span></div>
+                    <a href="#chat-bot-section" class="btn-apply" onclick="pilihPekerjaan('IT Support')">Lamar <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Data Analyst -->
+            <div class="job-card">
+                <div class="job-card-header">
+                    <span class="job-badge cyan">Full-Time</span>
+                    <i class="fa-solid fa-chart-simple job-icon"></i>
+                </div>
+                <div class="job-card-body">
+                    <h3>Data Analyst</h3>
+                    <div class="job-card-meta">
+                        <span><i class="fa-solid fa-location-dot"></i> Jakarta / WFH</span>
+                        <span><i class="fa-solid fa-clock"></i> 40 jam / minggu</span>
+                    </div>
+                    <p>Menganalisis data performa bisnis, membuat dasbor visualisasi, dan menyusun laporan rekomendasi strategis.</p>
+                    <div class="job-skills">
+                        <span class="skill-tag">Python Data</span>
+                        <span class="skill-tag">SQL Server</span>
+                        <span class="skill-tag">Tableau / PowerBI</span>
+                        <span class="skill-tag">Statistics</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <div class="job-salary">IDR 7M - 11M<span>/bulan</span></div>
+                    <a href="#chat-bot-section" class="btn-apply" onclick="pilihPekerjaan('Data Analyst')">Lamar <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Mobile App Developer -->
+            <div class="job-card">
+                <div class="job-card-header">
+                    <span class="job-badge cyan">Full-Time</span>
+                    <i class="fa-solid fa-mobile-screen-button job-icon"></i>
+                </div>
+                <div class="job-card-body">
+                    <h3>Mobile App Developer</h3>
+                    <div class="job-card-meta">
+                        <span><i class="fa-solid fa-location-dot"></i> WFH / Remote</span>
+                        <span><i class="fa-solid fa-clock"></i> 40 jam / minggu</span>
+                    </div>
+                    <p>Mengembangkan aplikasi mobile Android & iOS berkinerja tinggi menggunakan framework cross-platform terdepan.</p>
+                    <div class="job-skills">
+                        <span class="skill-tag">Flutter / Dart</span>
+                        <span class="skill-tag">Kotlin / Swift</span>
+                        <span class="skill-tag">Mobile API</span>
+                        <span class="skill-tag">App Store Publish</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <div class="job-salary">IDR 8M - 13M<span>/bulan</span></div>
+                    <a href="#chat-bot-section" class="btn-apply" onclick="pilihPekerjaan('Mobile App Developer')">Lamar <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Bot Section (Homirx layout styling) -->
+        <div id="chat-bot-section" class="section-title-wrapper" style="margin-top: 80px;">
+            <span class="section-subtitle">Asisten Virtual</span>
+            <h2 class="section-title">Pendaftaran Cepat via Chat Bot</h2>
+        </div>
+
+        <div class="chat-widget-container">
+            <div class="chat-header">
+                <div class="chat-bot-profile">
+                    <div class="chat-avatar">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="chat-bot-info">
+                        <h3>Recruitment Assistant</h3>
+                        <div class="chat-status">
+                            <span class="chat-status-pulse"></span>
+                            Online
+                        </div>
+                    </div>
+                </div>
+                <div style="font-size: 13px; color: var(--text-muted);">
+                    PT Digital Nusantara Bot
+                </div>
+            </div>
+            
+            <div class="chat-body">
+                <div id="chat-log" class="chat-log-box">
+                    <div class="chat-bubble bot">Halo! Selamat datang di portal rekrutmen PT Digital Nusantara. Untuk memulai pendaftaran, silakan pilih lowongan di atas dan klik tombol "Lamar", atau ketik apa saja untuk memulai percakapan.</div>
+                </div>
+                <div class="chat-input-area">
+                    <input type="text" id="user-input" placeholder="Ketik jawaban Anda di sini..." autocomplete="off">
+                    <button class="btn-send-message" onclick="kirimPesan()">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                DIGITAL <span>NUSANTARA</span>
+            </div>
+            <p>PT Digital Nusantara © 2026 | Solusi Digital Modern</p>
+        </div>
+    </footer>
+
+    <script>
+        async function kirimPesan() {
+            let input = document.getElementById('user-input');
+            let log = document.getElementById('chat-log');
+            let msg = input.value.trim();
+
+            if (msg === "") return;
+
+            // Render user bubble
+            log.innerHTML += `<div class="chat-bubble user">${msg}</div>`;
+            input.value = '';
+            log.scrollTop = log.scrollHeight;
+
+            try {
+                let response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({message: msg})
+                });
+                let data = await response.json();
+                
+                // Format bot response (replace /n with br for display)
+                let formattedResponse = data.response.replace(/\/n/g, '<br>');
+                
+                // Render bot bubble
+                log.innerHTML += `<div class="chat-bubble bot">${formattedResponse}</div>`;
+            } catch (e) {
+                log.innerHTML += `<div class="chat-bubble bot" style="color: var(--accent-pink);">Bot: Server tidak merespon. Mohon coba beberapa saat lagi.</div>`;
+            }
+            log.scrollTop = log.scrollHeight;
+        }
+
+        // Support Enter key press inside chat input
+        document.getElementById('user-input').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                kirimPesan();
+            }
+        });
+
+        // Trigger bot when click apply
+        function pilihPekerjaan(namaPekerjaan) {
+            let input = document.getElementById('user-input');
+            input.value = namaPekerjaan;
+            input.focus();
+            
+            // Give subtle hint or automatically send
+            setTimeout(() => {
+                kirimPesan();
+            }, 300);
+        }
+    </script>
+
+</body>
+
+</html>

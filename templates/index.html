@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Digital Nusantara - Solusi Digital Modern</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-cubes logo-icon"></i>
+                <div>
+                    <span class="logo-text">DIGITAL</span>
+                    <span class="logo-subtext">NUSANTARA</span>
+                </div>
+            </a>
+            <nav>
+                <a class="active" href="index.html">Dashboard</a>
+                <a href="lowongan.html">Lowongan</a>
+                <a href="tentang.html">Tentang</a>
+                <a href="kontak.html">Kontak</a>
+            </nav>
+            <a href="kontak.html" class="btn-nav-cta">Hubungi Kami</a>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Build the Future of Digital Solutions.</h1>
+            <p>Perusahaan teknologi inovatif yang menghadirkan solusi pengembangan website, aplikasi mobile, dan transformasi digital enterprise secara modern.</p>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <!-- Simulation Search Widget (Homirx style) -->
+        <div class="search-widget">
+            <form class="search-form" action="lowongan.html" method="GET">
+                <div class="search-group">
+                    <label>Pekerjaan</label>
+                    <div class="search-input-wrapper">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <input type="text" placeholder="Cari posisi kerja...">
+                    </div>
+                </div>
+                <div class="search-group">
+                    <label>Departemen</label>
+                    <div class="search-input-wrapper">
+                        <i class="fa-solid fa-code"></i>
+                        <select>
+                            <option value="">Semua Departemen</option>
+                            <option value="eng">Engineering</option>
+                            <option value="design">Design</option>
+                            <option value="data">Data & Analytics</option>
+                            <option value="support">IT Support</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="search-group">
+                    <label>Lokasi</label>
+                    <div class="search-input-wrapper">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <select>
+                            <option value="">Semua Lokasi</option>
+                            <option value="remote">Remote (WFH)</option>
+                            <option value="jakarta">Jakarta</option>
+                            <option value="semarang">Semarang</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i> Cari Karir
+                </button>
+            </form>
+        </div>
+
+        <!-- Explore Departments (Explore Apartment Types style) -->
+        <div class="section-title-wrapper">
+            <span class="section-subtitle">Karir Pilihan</span>
+            <h2 class="section-title">Explore Departemen Kami</h2>
+        </div>
+
+        <div class="grid" style="margin-bottom: 70px;">
+            <div class="dept-card" onclick="window.location.href='lowongan.html'">
+                <div class="dept-icon-wrapper">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <h3>Engineering</h3>
+                <p>3 Lowongan Tersedia</p>
+            </div>
+            
+            <div class="dept-card" onclick="window.location.href='lowongan.html'">
+                <div class="dept-icon-wrapper">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>1 Lowongan Tersedia</p>
+            </div>
+
+            <div class="dept-card" onclick="window.location.href='lowongan.html'">
+                <div class="dept-icon-wrapper">
+                    <i class="fa-solid fa-chart-pie"></i>
+                </div>
+                <h3>Data Science</h3>
+                <p>1 Lowongan Tersedia</p>
+            </div>
+
+            <div class="dept-card" onclick="window.location.href='lowongan.html'">
+                <div class="dept-icon-wrapper">
+                    <i class="fa-solid fa-circle-info"></i>
+                </div>
+                <h3>IT Support</h3>
+                <p>1 Lowongan Tersedia</p>
+            </div>
+        </div>
+
+        <!-- Why Choose Us / Strengths Section -->
+        <div class="section-title-wrapper">
+            <span class="section-subtitle">Nilai Utama</span>
+            <h2 class="section-title">Mengapa Bergabung Bersama Kami?</h2>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h2 style="font-size: 20px; display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                    <i class="fa-solid fa-rocket" style="color: var(--accent-cyan);"></i> Teknologi Terkini
+                </h2>
+                <p>Kami bekerja menggunakan stack teknologi modern seperti React, Flutter, Python Flask, dan Cloud Computing untuk memberikan solusi terbaik.</p>
+            </div>
+
+            <div class="card">
+                <h2 style="font-size: 20px; display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                    <i class="fa-solid fa-users" style="color: var(--accent-purple);"></i> Kolaborasi & Mentor
+                </h2>
+                <p>Bekerja bersama tim bertalenta tinggi dengan sistem mentorship terarah untuk membantu percepatan karir profesional Anda.</p>
+            </div>
+
+            <div class="card">
+                <h2 style="font-size: 20px; display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                    <i class="fa-solid fa-heart" style="color: var(--accent-pink);"></i> Work-Life Balance
+                </h2>
+                <p>Kami sangat menghargai keseimbangan hidup Anda melalui jam kerja fleksibel, opsi kerja remote (WFH), dan lingkungan yang suportif.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                DIGITAL <span>NUSANTARA</span>
+            </div>
+            <p>PT Digital Nusantara © 2026 | Solusi Digital Modern</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
